@@ -21,7 +21,7 @@ public class MainApplication extends Application {
 
         // Initialize WebEngage
         WebEngageConfig config = new WebEngageConfig.Builder()
-                .setWebEngageKey("~13410522d")
+                .setWebEngageKey("YOUR-WEBENGAGE-LICENSE-CODE")
                 .setDebugMode(true)
                 .setEventReportingStrategy(ReportingStrategy.BUFFER)
                 .setPushSmallIcon(R.mipmap.ic_launcher_round)
